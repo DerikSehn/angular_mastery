@@ -1,4 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
+
 * {
     outline: none;
 }
@@ -9,3 +9,50 @@ html, body {
     padding: 0;
     margin: 0;
 }
+
+:root {
+    --primary: hsla(35, 99%, 59%, 1);
+    --secondary: hsla(0, 100%, 32%, 1);
+    --white: rgb(252, 243, 225);
+    --black: rgb(37, 26, 2);
+    /* Novas variáveis dinâmicas */
+    --hero-overlay: rgba(0, 0, 0, 0.4);
+    --cta-background: var(--primary);
+    --cta-text: var(--black);
+    --cta-background-hover: var(--secondary);
+    --text-shadow-dark: rgba(0, 0, 0, 0.6);
+}
+
+  body {
+    font-family: 'metropolis', sans-serif;
+  }
+
+  @font-face {
+    font-family: 'young';
+    src: url('assets/fonts/bright_young_things/young.ttf');
+  }
+  @font-face {
+    font-family: 'bright';
+    src: url('assets/fonts/brightness/bright.ttf');
+  }
+  @font-face {
+    font-family: 'coffee';
+    src: url('assets/fonts/coffee_2/coffee.ttf');
+  }
+  @font-face {
+    font-family: 'mazreha';
+    src: url('assets/fonts/mazreha/mazreha.otf');
+  }
+  @font-face {
+    font-family: 'moza';
+    src: url('assets/fonts/moza/moza.otf');
+  }
+  @font-face {
+    font-family: 'sinera';
+    src: url('assets/fonts/sinera/sinera.otf');
+  }
+  @font-face {
+    font-family: 'sketchup';
+    src: url('assets/fonts/sketchup/sketchup.otf');
+  }
+                
